@@ -4,23 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="scripts.js" defer></script>
   <title>Product Picker</title>
 </head>
 <body>
   <main>
-    <img src="" alt="" srcset="">
-    <h1>Pick our next hit product! Don't worry, it wont acutally hit you
-        -- Unless you want us to do that - we do have interns to spare!</h1>
-    
-    <section>
-      <img />
-      <img />
-      <img />
-    </section>
-    <div>View results</div>
-    <ul></ul>
+    <header>
+      <h1>Pick our next hit product! Don't worry, it wont acutally hit you
+          -- Unless you want us to do that - we do have interns to spare!</h1>
+    </header>
+    <!-- <img src="" alt="" srcset=""> -->  
+    <div class="images--container">
+      <section>
+        <img id="img1" />
+        <img id="img2"/>
+        <img id="img3"/>
+      </section>
+    </div>
+    <div id="rButton" class="--rButton">View results<ul></ul></div>
   </main> 
+  <footer>
+    <canvas id="myCanvas"></canvas>
+    <h2>Footer</h2>
+  </footer>
 </body>
 </html>
